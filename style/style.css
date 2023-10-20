@@ -4,9 +4,13 @@
     padding: 0;
 }
 
+.f-c-alternative img{
+    width: 1rem;
+}
+
 header {
     background-color: #0084FD;
-    width: 100vw;
+
 }
 
 nav {
@@ -28,4 +32,8 @@ nav img {
 
 .nav-links {
     display: none;
+}
+
+section {
+    width: 100vw;
 }
