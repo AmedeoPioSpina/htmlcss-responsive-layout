@@ -4,8 +4,12 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+body, button{
+    font-family: 'PT Sans', sans-serif;
+}
+
+.f-c-alternative {
+    align-items: start;
 }
 
 .f-c-alternative button{
@@ -13,8 +17,11 @@ body {
     border-radius: 5rem;
     font-size: 1.3rem;
     font-weight: bold;
+    letter-spacing: 0.24rem;
     margin-bottom: 2.5rem;
-    padding: 1rem 4.4rem;
+    padding: 0.8rem 0;
+    width: 16.8rem;
+
 }
 
 .f-c-alternative-image {
@@ -28,30 +35,42 @@ body {
 .feature-card {
     background-color: #B5DDFF;
     border-radius: 1.5rem;
-    margin-bottom: 1.9rem;
-    padding: 3rem 2.6rem 0 2.6rem;
+    margin-bottom: 2rem;
+    padding: 2.6rem 2.6rem 0 2.6rem;
     width: 100%
 }
 
-.feature-card i {
-    padding-right: 0.5rem;
-}
-
 .feature-card p {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: bold;
     line-height: 2.15rem;
     margin-bottom: 2.5rem;
 }
 
 .feature-cards-container {
-    padding: 3.7rem 0;
+    margin-bottom: 6.3rem;
+    padding-top: 3.9rem;
+}
+
+.flex-column-a-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-a-center i {
+    font-size: 6.4rem;
+    margin-bottom: 1.9rem;
+}
+
+.flex-column-a-center p {
+    text-align: center;
 }
 
 h3 {
-    font-size: 1.6rem;
-    font-weight: 700;
-    margin-bottom: 2rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 2.1rem;
 }
 
 header {
@@ -60,7 +79,7 @@ header {
 }
 
 .global-side-margin {
-    margin: 0 8.6%;
+    margin: 0 2.6rem;
 }
 
 nav {
