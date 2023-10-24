@@ -212,11 +212,11 @@ section {
     }
     
     .feature-card {
-        width: calc(100% / 3);
+        width: calc(100% / 3 - 20px);
     }
     
     .f-c-alternative{
-        width: 70%;
+        width: calc((100% / 3) * 2 - 20px);
     }
 
 }
